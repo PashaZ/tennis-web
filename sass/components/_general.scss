@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary-bg-color;
+    color: $secondary-text-color;
+    font-family: $main-font-family;
+
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+button {
+    font-family: inherit;
+}

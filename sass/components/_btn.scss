@@ -1,0 +1,19 @@
+.page-button {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+
+}
+
+.btn {
+    text-decoration: none;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    color: $primary-text-color;
+    font-size: 18px;
+    font-weight: 300;
+
+    background-color: $button-color;
+
+}

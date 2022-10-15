@@ -1,0 +1,16 @@
+h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+ul {
+  margin-top: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=hero.css.map */

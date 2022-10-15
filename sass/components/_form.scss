@@ -1,0 +1,67 @@
+.contact-form {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+
+    @media(max-width:768px) {
+        width: 100%;
+    }
+}
+
+form {
+    margin-left: 40px;
+}
+
+.form-title {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.form-field {
+    display: block;
+    margin-bottom: 28px;
+}
+
+.form-input {
+    width: 150px;
+    height: 30px;
+
+}
+
+.form-label {
+    display: block;
+
+}
+
+.field-comment {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comment-label {
+    display: block;
+
+}
+
+textarea {
+    width: 320px;
+    height: 120px;
+}
+
+.policy-link {
+    text-decoration: none;
+}
+
+.sub-btn {
+    margin-top: 20px;
+
+}
+
+.submit-btn {
+    padding: 15px 20px;
+    color: $secondary-text-color;
+}
