@@ -217,9 +217,9 @@
             </div>
         </section>
         <section>
-            <div id="form" class="contact-form">
+            <div>
                 <p class="form-title">Напишите нам</p>
-                <form>
+                <form id="form" action="./sendmail.php" method="post" class="contact-form">
 
                     <div class="form-field">
                         <label for="name" class="form-label">Имя:</label>
@@ -238,14 +238,15 @@
 
                     <div class="policy-field">
                         <label>
-                            <input class="checkbox" type="checkbox" name="policy" value="Принимаю условия договора" />
+                            <input class="checkbox" type="checkbox" name="policy" value="Принимаю условия договора"
+                                required />
                             <a href="./pages/policy.html" class="policy-link">Принимаю условия договора</a>
                         </label>
 
                     </div>
 
                     <div class="sub-btn">
-                        <button type="submit" class="submit-btn">Отправить</button>
+                        <button type="submit" class="submit-btn" name="sub" id="sub">Отправить</button>
                     </div>
                 </form>
             </div>
@@ -278,6 +279,7 @@
             </p>
         </div>
     </footer>
+    <script src="./js/get_data_form.js"></script>
 </body>
 
 </html>
